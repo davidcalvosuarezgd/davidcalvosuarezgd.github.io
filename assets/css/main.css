@@ -155,6 +155,15 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+	#imagecontact{
+		border-radius:300px;
+		width: 50%;
+		display: block;
+		 margin-left: auto;
+		margin-right: auto }
+
+	
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -205,6 +214,8 @@ input, select, textarea {
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
+
+		
 
 	h1 {
 		font-size: 2.25rem;
@@ -788,8 +799,14 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1rem;
-		padding-left: 0;
+		
+		
+		display: block;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  width: 75%;
+		
 	}
 
 		ul.actions li {
@@ -1538,6 +1555,7 @@ input, select, textarea {
 		z-index: 3;
 	}
 
+
 	.gifText {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
@@ -1575,6 +1593,7 @@ input, select, textarea {
 
 		 border: 2px solid #999;
 		 
+
 
 	}
 
